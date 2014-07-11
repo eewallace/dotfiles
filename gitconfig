@@ -1,0 +1,9 @@
+[user]
+	name = Eric Wallace
+	email = eewallace@gmail.com
+[alias]
+	co = checkout
+[core]
+	editor = vim
+[push]
+	default = simple

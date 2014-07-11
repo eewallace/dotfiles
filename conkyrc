@@ -1,0 +1,14 @@
+background no
+out_to_x no
+out_to_console yes
+update_interval 5.0
+total_run_times 0
+uppercase no
+use_spacer none
+
+TEXT
+^fg(\#999999) \
+cpu 0: ${cpu cpu0}% 1: ${cpu cpu1}% ^fg(\#c46d18)^r(1x19)^fg(\#999999) \
+mem:$memperc% ^fg(\#c46d18)^r(1x19)^fg(\#999999) \
+/:${fs_free_perc /}% ^fg(\#c46d18)^r(1x19)^fg(\#999999) \
+/home:${fs_free_perc /home}% #^fg(\#c46d18)^r(1x19)
